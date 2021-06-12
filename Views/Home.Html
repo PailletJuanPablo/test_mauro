@@ -114,6 +114,9 @@ rel="stylesheet" />
 </main>
     </article>
 
+
+
+
 <footer>
     <span class ="credit-card"><i class="fas fa-credit-card"></i></span>
     <h4>Pagá con tarjeta o en efectivo</h4>
@@ -130,6 +133,60 @@ rel="stylesheet" />
     <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
 </footer>
 </body>
+
+
+
+
+<form action="/registre.html" method="POST" class="formulario">
+    <div class="control-formulario">
+        <label></label>
+        <input type="text" name="nombre" placeholder="Nombre y apellido">
+    </div>
+    <div class="control-formulario">
+        <input type="text" name="usuario" placeholder="Nombre de usuario">                
+    </div>
+    <div class="control-formulario">
+   <input type="email" name="email" placeholder="E-mail">                
+    </div>
+    <p>FECHA DE NACIMIENTO</p>
+    <div class="control-formulario">
+    <input type="number" name="edad" placeholder="mm/dd/yy">
+    <input type="text" name="domicilio" placeholder="Domicilio">
+    </div>
+    <div class="control-formulario">
+        <label>Perfil del usuario</label>            
+        <input type="radio" name="Comprador">Comprador,
+        <input type="radio" name="Vendedor"> Vendedor,
+    </div>
+    <div class="control-formulario">
+        <label>Intereses
+            <ul class="linea">
+        <input type="checkbox" name="Electro" value="Electro" checked>Electro;
+    </ul>
+    <ul class="linea">
+        <input type="checkbox" name="Moda" value="Moda"checked>Moda;
+    </ul>
+    <ul class="linea">
+        <input type="checkbox" name="Hogar" value="Hogar" checked>Hogar;
+    </ul>
+    <ul class="linea">
+        <input type="checkbox" name="Jugueteria" value="Jugueteria"checked>Jugueteria;
+    </ul>
+    <ul class="linea">
+        <input type="checkbox" name="Vida sana" value="Vida sana" checked>Vida Sana;
+    </ul>
+    </label>
+    <form action="login.html" method="POST">
+        <div class="control-formulario">
+ <input type="text" name="usuario" placeholder="Nombre de usuario">                
+ </div>
+ <div class="control-formulario">
+    <input type="password" name="contraseña" placeholder="Elegi tu contraseña">
+ </div>
+    <button type="submit">ENVIAR</button>
+
+
+    
 </html>
 
 

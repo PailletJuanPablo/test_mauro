@@ -12,5 +12,13 @@
   },
   "devDependencies": {},
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mauropatat/MercadoLiebre.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mauropatat/MercadoLiebre/issues"
+  },
+  "homepage": "https://github.com/Mauropatat/MercadoLiebre#readme",
   "description": ""
 }
