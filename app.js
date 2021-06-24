@@ -3,7 +3,7 @@ const path = require('path')
 
 const app = express();
 
-const publicPath = path.resolve(__dirname, './static')
+const publicPath = path.resolve(__dirname, './statics')
 app.use(express.static(publicPath))
 console.log(__dirname)
 
